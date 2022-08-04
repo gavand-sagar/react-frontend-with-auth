@@ -31,6 +31,7 @@ export default function Login(params) {
     }
 
     return (<>
+    {process.env.REACT_APP_SETTING}
         <div className='container'>
             <div className='form'>
                 <h2>Log in </h2>
